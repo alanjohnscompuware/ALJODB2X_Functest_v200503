@@ -1,12 +1,12 @@
-16:14:09.351 INFO      TOPAZ            ***************************************
-16:14:09.351 INFO      TOPAZ            ** Execution from Topaz with options **
-16:14:09.351 INFO      TOPAZ            ***************************************
-16:14:09.352 INFO      TOPAZ            Using repository: true
-16:14:09.352 INFO      TOPAZ            Repository URL: http://192.168.101.100:48226/totaltestapi/
-16:14:09.352 INFO      TOPAZ            ***************************************
-16:14:09.352 INFO      Engine           Test Scenario execution started
-16:14:09.352 INFO      Engine           Using context settings:
-  Engine Version                : 20.5
+15:53:20.291 INFO      TOPAZ            ***************************************
+15:53:20.292 INFO      TOPAZ            ** Execution from Topaz with options **
+15:53:20.292 INFO      TOPAZ            ***************************************
+15:53:20.292 INFO      TOPAZ            Using repository: true
+15:53:20.293 INFO      TOPAZ            Repository URL: http://192.168.101.100:48226/totaltestapi/
+15:53:20.293 INFO      TOPAZ            ***************************************
+15:53:20.295 INFO      Engine           Test Scenario execution started
+15:53:20.296 INFO      Engine           Using context settings:
+  Engine Version                : 20.6
   Environment id                : CWCC Batch DB2
   Environment type              : Batch
   Operating system              : ZOS
@@ -20,27 +20,25 @@
   Codepage                      : IBM-1047
   Host user Id                  : HUK0320
   Use Repository Server         : true
-16:14:09.352 INFO      Engine           Setting variables from context and context data extensions
-16:14:09.352 INFO      Engine             id: environmentId      value: CWCC Batch DB2
-16:14:09.353 INFO      Engine             id: environmentType    value: BATCH
-16:14:09.353 INFO      Engine             id: userId             value: HUK0320
-16:14:09.353 INFO      Engine             id: accountingInfo     value: 
-16:14:09.355 INFO      Component        Interpreting Component: ALJODB2X program:ALJODB2X
-16:14:10.588 INFO      CWCC Batch DB2   Sending Module execution request to Host for module:ALJODB2X rollback:false
-16:14:10.769 INFO      HCIClient        Creating job directory /u/xatester/huk0320/203c233f6a474edb927fe2f1c1ecc023
-16:14:12.980 INFO      HCIClient        Job has been started at host with JobId:J0123045
-16:14:19.131 INFO      CWCC Batch DB2   Job execution completed with status:
+15:53:20.296 INFO      Engine           Setting variables from context and context data extensions
+15:53:20.296 INFO      Engine             id: environmentId      value: CWCC Batch DB2
+15:53:20.297 INFO      Engine             id: environmentType    value: BATCH
+15:53:20.297 INFO      Engine             id: userId             value: HUK0320
+15:53:20.297 INFO      Engine             id: accountingInfo     value: 
+15:53:20.331 INFO      Component        Interpreting Component: ALJODB2X program:ALJODB2X
+15:53:21.846 INFO      CWCC Batch DB2   Sending Module execution request to Host for module:ALJODB2X rollback:false
+15:53:22.060 INFO      HCIClient        Creating job directory /u/xatester/huk0320/befe0f953b904ba3b79480150d3fbb78
+15:53:24.253 INFO      HCIClient        Job has been started at host with JobId:J0124695
+15:53:30.422 INFO      CWCC Batch DB2   Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HUK0320E(J0123045) ended with return code: 0000
+  Job status msg : Job HUK0320E(J0124695) ended with return code: 0000
   Job name       : HUK0320E
-  Job id         : J0123045
+  Job id         : J0124695
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-16:14:19.496 INFO      CWCC Batch DB2   Component completed with program exit: +0
-16:14:19.873 WARNING   CWCC Batch DB2   Error deleting job directory /u/xatester/huk0320/203c233f6a474edb927fe2f1c1ecc023: Unable to delete directory /u/xatester/huk0320/203c233f6a474edb927fe2f1c1ecc023. Reason An error occurred while processing the requested action. If possible, capture the dump from the HCI and contact Compuware Customer Support with the details of this error.
-16:14:19.874 WARNING   CWCC Batch DB2   Unable to cleanup files at the server. com.compuware.totaltest.common.hci.api.exceptions.HciServicesFileIOException: Unable to delete directory /u/xatester/huk0320/203c233f6a474edb927fe2f1c1ecc023. Reason An error occurred while processing the requested action. If possible, capture the dump from the HCI and contact Compuware Customer Support with the details of this error.
-16:14:19.877 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
-16:14:19.892 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
-16:14:19.892 INFO      Component        Finished interpreting Component: ALJODB2X program:ALJODB2X
-16:14:19.893 INFO      Engine           Test Scenario execution ended
+15:53:30.799 INFO      CWCC Batch DB2   Component completed with program exit: +0
+15:53:31.218 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+15:53:31.760 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+15:53:31.760 INFO      Component        Finished interpreting Component: ALJODB2X program:ALJODB2X
+15:53:31.763 INFO      Engine           Test Scenario execution ended

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\Users\cpwr01\git\ALJODB2X_Functest_v200503\ALJODB2X_Functest_v200503\Tests\Scenarios\ALJODB2X.scenario">
+    <testCase name="Functional Test: ALJODB2X" duration="0" />
+  </file>
+</testExecutions>
