@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnitResult resultType="SUCCESS" containsSimulation="false">
-  <ExecutionId>d0ac26d0-6ed3-4653-be90-4d6c20ec6959</ExecutionId>
+  <ExecutionId>068ccc69-f7f9-4b88-8392-36f3537f1001</ExecutionId>
   <Message />
   <AST>
     <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false">
@@ -48,16 +48,7 @@
           <Value>ALJODB2X</Value>
         </Parameter>
         <Parameter key="loadlibraries">
-          <Value>CEE.SCEERUN</Value>
           <Value>HUK0320.DEMO.LOAD.PDSE</Value>
-          <Value>DSNB10.SDSNLOAD</Value>
-          <Value>CEE.SCEERUN</Value>
-          <Value>SYS2.CW.CXR17Q.SLCXLOAD</Value>
-          <Value>HUK0320.DEMO.LOAD.PDSE</Value>
-          <Value>HUK0320.DEMO.LOAD.PDSE</Value>
-        </Parameter>
-        <Parameter key="loadlibrary">
-          <Value>CEE.SCEERUN</Value>
         </Parameter>
         <Parameter key="sourcelibraries">
           <Value>HUK0320.DEMO.COPY</Value>
@@ -70,9 +61,6 @@
         </Parameter>
       </ExtensionData>
       <References componentName="aljodb2x">
-        <Reference>//EMPFILE  DD  DSN=HUK0320.DEMO.JCL(TTTDATD2),
-//         DISP=SHR
-//RPTFILE  DD  SYSOUT=*</Reference>
         <Reference>//EMPFILE  DD  DSN=HUK0320.DEMO.JCL(TTTDATD2),
 //         DISP=SHR
 //RPTFILE  DD  SYSOUT=*</Reference>
@@ -106,6 +94,6 @@
       <ExternalResources />
     </ExecutionContext>
   </Context>
-  <Started>20210405-15-53-20</Started>
-  <Ended>20210405-15-53-31</Ended>
+  <Started>20210413-17-55-15</Started>
+  <Ended>20210413-17-55-25</Ended>
 </XaUnitResult>
