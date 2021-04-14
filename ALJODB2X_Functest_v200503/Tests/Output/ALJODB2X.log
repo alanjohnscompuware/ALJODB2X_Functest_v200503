@@ -1,11 +1,11 @@
-17:55:15.227 INFO      TOPAZ            ***************************************
-17:55:15.228 INFO      TOPAZ            ** Execution from Topaz with options **
-17:55:15.228 INFO      TOPAZ            ***************************************
-17:55:15.228 INFO      TOPAZ            Using repository: true
-17:55:15.228 INFO      TOPAZ            Repository URL: http://192.168.101.100:48226/totaltestapi/
-17:55:15.228 INFO      TOPAZ            ***************************************
-17:55:15.228 INFO      Engine           Test Scenario execution started
-17:55:15.229 INFO      Engine           Using context settings:
+13:03:35.443 INFO      TOPAZ            ***************************************
+13:03:35.445 INFO      TOPAZ            ** Execution from Topaz with options **
+13:03:35.445 INFO      TOPAZ            ***************************************
+13:03:35.445 INFO      TOPAZ            Using repository: true
+13:03:35.445 INFO      TOPAZ            Repository URL: http://192.168.101.100:48226/totaltestapi/
+13:03:35.446 INFO      TOPAZ            ***************************************
+13:03:35.449 INFO      Engine           Test Scenario execution started
+13:03:35.450 INFO      Engine           Using context settings:
   Engine Version                : 20.6
   Environment id                : CWCC Batch DB2
   Environment type              : Batch
@@ -20,25 +20,25 @@
   Codepage                      : IBM-1047
   Host user Id                  : HUK0320
   Use Repository Server         : true
-17:55:15.229 INFO      Engine           Setting variables from context and context data extensions
-17:55:15.229 INFO      Engine             id: environmentId      value: CWCC Batch DB2
-17:55:15.229 INFO      Engine             id: environmentType    value: BATCH
-17:55:15.229 INFO      Engine             id: userId             value: HUK0320
-17:55:15.229 INFO      Engine             id: accountingInfo     value: 
-17:55:15.232 INFO      Component        Interpreting Component: ALJODB2X program:ALJODB2X
-17:55:16.773 INFO      CWCC Batch DB2   Sending Module execution request to Host for module:ALJODB2X rollback:false
-17:55:16.991 INFO      HCIClient        Creating job directory /u/xatester/huk0320/c4583c2cb4f34f48b17c49cc26d81cb2
-17:55:18.577 INFO      HCIClient        Job has been started at host with JobId:J0128940
-17:55:24.300 INFO      CWCC Batch DB2   Job execution completed with status:
+13:03:35.450 INFO      Engine           Setting variables from context and context data extensions
+13:03:35.450 INFO      Engine             id: environmentId      value: CWCC Batch DB2
+13:03:35.451 INFO      Engine             id: environmentType    value: BATCH
+13:03:35.451 INFO      Engine             id: userId             value: HUK0320
+13:03:35.451 INFO      Engine             id: accountingInfo     value: 
+13:03:35.456 INFO      Component        Interpreting Component: ALJODB2X program:ALJODB2X
+13:03:36.982 INFO      CWCC Batch DB2   Sending Module execution request to Host for module:ALJODB2X rollback:false
+13:03:37.166 INFO      HCIClient        Creating job directory /u/xatester/huk0320/2e55cb9c4bd142a796f8cdb1125e3880
+13:03:38.856 INFO      HCIClient        Job has been started at host with JobId:J0129175
+13:03:44.955 INFO      CWCC Batch DB2   Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HUK0320E(J0128940) ended with return code: 0000
+  Job status msg : Job HUK0320E(J0129175) ended with return code: 0000
   Job name       : HUK0320E
-  Job id         : J0128940
+  Job id         : J0129175
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-17:55:24.675 INFO      CWCC Batch DB2   Component completed with program exit: +0
-17:55:25.061 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
-17:55:25.836 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
-17:55:25.836 INFO      Component        Finished interpreting Component: ALJODB2X program:ALJODB2X
-17:55:25.840 INFO      Engine           Test Scenario execution ended
+13:03:45.521 INFO      CWCC Batch DB2   Component completed with program exit: +0
+13:03:46.049 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+13:03:46.556 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+13:03:46.556 INFO      Component        Finished interpreting Component: ALJODB2X program:ALJODB2X
+13:03:46.559 INFO      Engine           Test Scenario execution ended
