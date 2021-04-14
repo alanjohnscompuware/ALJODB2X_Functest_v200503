@@ -10,6 +10,11 @@
           <TOTAL_RECORD expected="F0F0F9" hexed="true">000000</TOTAL_RECORD>
         </PARMINFO>
       </Data>
+      <Setup>
+        <Content><![CDATA[//EMPFILE  DD  DSN=HUK0320.DEMO.JCL(TTTDATD2),
+//         DISP=SHR
+//RPTFILE  DD  SYSOUT=*]]></Content>
+      </Setup>
     </Component>
   </Test>
   <MetaData>

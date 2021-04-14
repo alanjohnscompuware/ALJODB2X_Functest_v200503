@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XaUnitResult resultType="SUCCESS" containsSimulation="false">
-  <ExecutionId>f700065a-8091-4bfb-aba4-9ab1ef48ecf8</ExecutionId>
+  <ExecutionId>0bab3fad-6489-499b-96b3-c5a2f060941f</ExecutionId>
   <Message />
   <AST>
     <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false">
@@ -14,6 +14,11 @@
               <TOTAL_RECORD expected="F0F0F9" hexed="true">F0F0F9</TOTAL_RECORD>
             </PARMINFO>
           </Data>
+          <Setup>
+            <Content><![CDATA[//EMPFILE  DD  DSN=HUK0320.DEMO.JCL(TTTDATD2),
+//         DISP=SHR
+//RPTFILE  DD  SYSOUT=*]]></Content>
+          </Setup>
         </Component>
       </Test>
       <MetaData>
@@ -79,6 +84,11 @@
                 <TOTAL_RECORD expected="F0F0F9" hexed="true">000000</TOTAL_RECORD>
               </PARMINFO>
             </Data>
+            <Setup>
+              <Content><![CDATA[//EMPFILE  DD  DSN=HUK0320.DEMO.JCL(TTTDATD2),
+//         DISP=SHR
+//RPTFILE  DD  SYSOUT=*]]></Content>
+            </Setup>
           </Component>
         </Test>
         <MetaData>
@@ -97,6 +107,6 @@
       <ExternalResources />
     </ExecutionContext>
   </Context>
-  <Started>20210414-13-03-35</Started>
-  <Ended>20210414-13-03-46</Ended>
+  <Started>20210414-13-37-14</Started>
+  <Ended>20210414-13-37-24</Ended>
 </XaUnitResult>
